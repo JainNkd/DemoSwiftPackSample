@@ -1,6 +1,2 @@
-public struct MyLibraryDemo {
-    public private(set) var text = "Hello, World!"
+@_exported import KulfySDK
 
-    public init() {
-    }
-}
