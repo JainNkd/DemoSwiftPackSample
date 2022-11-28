@@ -225,6 +225,19 @@ SWIFT_CLASS("_TtC8KulfySDK28KulfyDashboardViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@class UISearchBar;
+
+@interface KulfyDashboardViewController (SWIFT_EXTENSION(KulfySDK)) <UISearchBarDelegate>
+- (void)searchBarTextDidEndEditing:(UISearchBar * _Nonnull)searchBar;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+@end
+
+
+
+
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
