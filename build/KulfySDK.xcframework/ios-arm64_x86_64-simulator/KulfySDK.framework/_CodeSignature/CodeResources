@@ -22,27 +22,27 @@
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wIlyOoCmKRN12xksHfl4I1f/eGo=
+		SP4BhV/sxkNAiBbkSn2i5IyUESk=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		3+SuMCriODlpdm487HKZp/EZvTA=
+		Aa/ARPgDfgsJpP1CBcZCkBueV6M=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AzVQpT50rAQCnc8pdXY9OxmOE4Y=
+		Kioo1Lqk+ceYge14bGBGDB83oS0=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ST+Jcy/7HLlFB49wtyboM5DKYOI=
+		oNSkxkELYkVeWwASvEhXP1IB10o=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zwo27O3q8yZLw8fFINpT/zj2uek=
+		EU3fxthOGUAvq4eXdkxacURIrlI=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0o0p2v+zfi+7sIIbfPhe6dXDQqY=
+		5h3XyTNN4w2i/60FEIhPeUPK0B0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,42 +88,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v7lO+vwKZJ+z3i7IOhjyLGf3uEM5bkIQNmH6WzWsmjE=
+			NvZPw8Q6QpVhOnVMoUY92p25vbUgtxItX2yIh34n7Bc=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hiBEIl3tOH2DrjoAFsYyVkaP2RC9A/OPJhpDdQh9VQo=
+			NrI8cHhEOWIKLdv15cEsH5AOdJc92oQcVUnNyh0oLv8=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ix1/MwZxp/N66j4DocpHB9ehuhEZnzL/ajBVtYHPO/o=
+			Me5LequxKUnLMQcJKROrWJK/aLW3xybxg+yWG59MPXQ=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			86BEkVMyRxUYim4FT1IsxK8w6qnVDN/vjuBPDc25COc=
+			ZbogPts+0LIoPLpdmmgBTF4+6of9PLLC2iCS4E+yTLA=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dxn4Rr4tmMZIFuu3IUVPjb5wEiBXAcRz5PtNoVJdSPk=
+			FWwjdZd2A4zMhAyWKG0ZLfHAof63mtTWyURueR+wU4Y=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u9Voyeg/MH3z12tc3ygHuhT5CTwwmCKXCU1h0luSqyo=
+			zOt5CNSJyA2k6BXUtA+wuKbJFULfwIl9P5+Z5RQheEM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
