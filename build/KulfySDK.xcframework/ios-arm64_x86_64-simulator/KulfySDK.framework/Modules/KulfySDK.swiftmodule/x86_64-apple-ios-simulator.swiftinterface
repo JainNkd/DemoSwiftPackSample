@@ -4,7 +4,6 @@
 import Foundation
 @_exported import KulfySDK
 import Reachability
-import SDWebImage
 import SDWebImageWebPCoder
 import Swift
 import UIKit
