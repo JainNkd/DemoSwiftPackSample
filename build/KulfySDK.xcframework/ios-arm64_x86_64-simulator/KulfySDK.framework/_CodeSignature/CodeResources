@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		CppNLXQE7Pmx0WcWZ2YHdDAswHE=
+		haBgKaa12MQfWeVp1NtPt4NbnR4=
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mLfZHDaHhvCmAxS50EEqjuW1U0s=
+		kJFPqRGvLxdccWYI6gQ2A4ooIYA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -91,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SiGV6E2ON/ft1uaxIzZp4ZX1n+oQnEiA8SZN78ijZsI=
+			B2fUOZeFdkFWioZyRLVFII/JNye1CEDrMVDks7h8Lo0=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -112,7 +112,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XpWgN7xJA4O68nk1buZ+2ORVt3CGTc4fC1jM9YBDBd0=
+			pLWfRkxbyyMMHRaEUVdggxtlDmG6uliPsCECcEmCxA0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
