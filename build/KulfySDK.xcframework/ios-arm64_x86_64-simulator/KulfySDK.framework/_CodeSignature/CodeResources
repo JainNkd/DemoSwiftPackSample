@@ -44,6 +44,18 @@
 		<data>
 		ob9qG+iU70QbhIvG6af2+B6hGSk=
 		</data>
+		<key>kulfyBundle.bundle/PoweredByView.xib</key>
+		<data>
+		TSG+KolVfqYGpBn3+yvVR0HgcJU=
+		</data>
+		<key>kulfyBundle.bundle/SearchView.xib</key>
+		<data>
+		Bl3eOIFM/R8xHa5fqJcPBDNItyA=
+		</data>
+		<key>kulfyBundle.bundle/TagListView.xib</key>
+		<data>
+		ZynYC0B+q2vEIRU+eTEhlIZkTRo=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -108,6 +120,27 @@
 			<key>hash2</key>
 			<data>
 			dmYGeBG3x4x0/b8h7vu0D5ARRl0mW9HdnjulkEUt30g=
+			</data>
+		</dict>
+		<key>kulfyBundle.bundle/PoweredByView.xib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0u9HRgE4hOuH6bzDi4O0/VBYrgUQxa6Ggh7JVTczt4o=
+			</data>
+		</dict>
+		<key>kulfyBundle.bundle/SearchView.xib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JzJBaifgG/uQAMtdGXnA1qi8fDgLoIEejsPBWvN6crg=
+			</data>
+		</dict>
+		<key>kulfyBundle.bundle/TagListView.xib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tmWtoF+N/AEjXalcUckmcShDzlEw4GsrFodbkGBYNCA=
 			</data>
 		</dict>
 	</dict>
