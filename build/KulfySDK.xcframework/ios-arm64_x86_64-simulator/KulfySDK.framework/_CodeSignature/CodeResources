@@ -16,10 +16,6 @@
 		<data>
 		PlG/qhhXMgmSDU5r8G2+twPRv7A=
 		</data>
-		<key>KulfyCell.nib</key>
-		<data>
-		Mpud4riCk/V/JoQY7vsusr0aLKI=
-		</data>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
 		SP4BhV/sxkNAiBbkSn2i5IyUESk=
@@ -48,18 +44,6 @@
 		<data>
 		ob9qG+iU70QbhIvG6af2+B6hGSk=
 		</data>
-		<key>PoweredByView.nib</key>
-		<data>
-		W6D34hCWpKoLD9OwE3PrrH0PB3s=
-		</data>
-		<key>SearchView.nib</key>
-		<data>
-		33BbXgMcY9IExjzi0bqVcHMV6Mo=
-		</data>
-		<key>TagListView.nib</key>
-		<data>
-		l+zjkxbvY+yf53HihGrgBhgI+wg=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -75,13 +59,6 @@
 			<key>hash2</key>
 			<data>
 			vjSISqafHN/z2QSUQWd7FQ8H/znAwLZcKpn6yMghyDw=
-			</data>
-		</dict>
-		<key>KulfyCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			m9eoOpMvprmEXE6wKJ7om+acBCRZqqeVWnJvjT2SCRM=
 			</data>
 		</dict>
 		<key>Modules/KulfySDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -131,27 +108,6 @@
 			<key>hash2</key>
 			<data>
 			dmYGeBG3x4x0/b8h7vu0D5ARRl0mW9HdnjulkEUt30g=
-			</data>
-		</dict>
-		<key>PoweredByView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jAUOPIpRRSqcSRsMULv5Cd2+eAmTEnfQrn1xd5N8yz0=
-			</data>
-		</dict>
-		<key>SearchView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yq3ck8uwDoTeZvwYiV5Ow9Cj2y1assGHSwlpUbKWqa4=
-			</data>
-		</dict>
-		<key>TagListView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mC0Iqa/B8FgzG4mt1dSxRFOMGGenU+9kJJqDnVzrZVU=
 			</data>
 		</dict>
 	</dict>
