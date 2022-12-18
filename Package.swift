@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MyLibraryDemo",
-            targets: ["MyLibraryDemo","KulfySDK"]),
+            targets: ["MyLibraryDemo","KulfyFramwork"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -22,10 +22,10 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MyLibraryDemo",
-            dependencies: ["KulfySDK"]),
+            dependencies: ["KulfyFramwork"]),
         .binaryTarget(
-                    name: "KulfySDK",
-                    path: "./build/KulfySDK.xcframework"
+                    name: "KulfyFramwork",
+                    path: "./build/KulfyFramwork.xcframework"
                 ),
     ]
 )

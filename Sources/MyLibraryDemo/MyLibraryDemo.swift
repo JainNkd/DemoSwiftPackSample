@@ -1,1 +1,1 @@
-@_exported import KulfySDK
+@_exported import KulfyFramwork
