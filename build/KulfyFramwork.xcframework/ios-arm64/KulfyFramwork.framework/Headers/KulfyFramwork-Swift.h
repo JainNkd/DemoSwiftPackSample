@@ -237,6 +237,14 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 @end
 
 
+SWIFT_CLASS("_TtC13KulfyFramwork8KulfySDK")
+@interface KulfySDK : KulfyDashboardViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 
 
 
