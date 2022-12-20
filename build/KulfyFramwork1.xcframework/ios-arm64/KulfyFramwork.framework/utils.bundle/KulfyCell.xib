@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="KulfyCell" id="gTV-IL-0wX" customClass="KulfyCell" customModule="KulfyFramwork">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wMO-fj-Idp">
+                        <rect key="frame" x="5" y="0.0" width="140" height="110"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loader1.gif" translatesAutoresizingMaskIntoConstraints="NO" id="mBg-FN-jU6">
+                        <rect key="frame" x="50" y="30" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="Cxk-oB-qGe"/>
+                            <constraint firstAttribute="height" constant="50" id="ayd-h7-7aJ"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="w9X-PY-MpN">
+                        <rect key="frame" x="50" y="30" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Ktx-o4-0Jh"/>
+                            <constraint firstAttribute="width" constant="50" id="p48-cb-SfZ"/>
+                        </constraints>
+                    </activityIndicatorView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="mBg-FN-jU6" firstAttribute="centerY" secondItem="wMO-fj-Idp" secondAttribute="centerY" id="8nd-Hg-5YC"/>
+                <constraint firstItem="w9X-PY-MpN" firstAttribute="centerX" secondItem="mBg-FN-jU6" secondAttribute="centerX" id="LPB-gA-Pjd"/>
+                <constraint firstItem="wMO-fj-Idp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="VxL-ls-CHr"/>
+                <constraint firstAttribute="bottom" secondItem="wMO-fj-Idp" secondAttribute="bottom" id="aQg-nf-a0b"/>
+                <constraint firstItem="w9X-PY-MpN" firstAttribute="centerY" secondItem="mBg-FN-jU6" secondAttribute="centerY" id="cEU-Vg-nCD"/>
+                <constraint firstAttribute="trailing" secondItem="wMO-fj-Idp" secondAttribute="trailing" constant="5" id="e42-ej-woT"/>
+                <constraint firstItem="wMO-fj-Idp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="kvd-YD-SlO"/>
+                <constraint firstItem="mBg-FN-jU6" firstAttribute="centerX" secondItem="wMO-fj-Idp" secondAttribute="centerX" id="rZG-ZX-qRg"/>
+            </constraints>
+            <connections>
+                <outlet property="indicatorView" destination="w9X-PY-MpN" id="Sn9-t5-Szn"/>
+                <outlet property="kulfyImageView" destination="wMO-fj-Idp" id="cqf-zw-mCP"/>
+                <outlet property="loadingWheel" destination="mBg-FN-jU6" id="UDa-Pp-C8j"/>
+            </connections>
+            <point key="canvasLocation" x="-314" y="-8"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="loader1.gif" width="120" height="120"/>
+    </resources>
+</document>
