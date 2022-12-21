@@ -1,0 +1,11 @@
+framework module KulfyFramwork {
+  umbrella header "KulfyFramwork.h"
+
+  export *
+  module * { export * }
+}
+
+module KulfyFramwork.Swift {
+    header "KulfyFramwork-Swift.h"
+    requires objc
+}
