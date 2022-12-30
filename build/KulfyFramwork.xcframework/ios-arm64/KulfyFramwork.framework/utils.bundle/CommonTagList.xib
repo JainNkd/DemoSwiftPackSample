@@ -20,7 +20,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" restorationIdentifier="CommonTagList" translatesAutoresizingMaskIntoConstraints="NO" id="P2x-0L-M8K" customClass="SlidingTabsView">
-                    <rect key="frame" x="10" y="10" width="394" height="30"/>
+                    <rect key="frame" x="5" y="10" width="404" height="30"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="fzh-2W-Eee"/>
@@ -30,9 +30,9 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="P2x-0L-M8K" secondAttribute="trailing" constant="10" id="EXe-RH-a9w"/>
+                <constraint firstAttribute="trailing" secondItem="P2x-0L-M8K" secondAttribute="trailing" constant="5" id="EXe-RH-a9w"/>
                 <constraint firstItem="P2x-0L-M8K" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="F49-um-fOs"/>
-                <constraint firstItem="P2x-0L-M8K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="cKs-e7-3Xl"/>
+                <constraint firstItem="P2x-0L-M8K" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cKs-e7-3Xl"/>
                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="P2x-0L-M8K" secondAttribute="bottom" constant="10" id="yAt-3f-Cj2"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
