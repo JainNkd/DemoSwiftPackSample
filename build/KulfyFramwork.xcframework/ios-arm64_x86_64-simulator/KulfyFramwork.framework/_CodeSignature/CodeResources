@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iPx1c9XbxD31UnGPWEzzuIuwYq8=
+		kRIYCAEPcjWI+yMBmDRd19O6xwI=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iT1YegOmtTx/GLsxTUmH6Bfg8kM=
+		JBI8o0rT00fUjx62cQhLWEg+1Pk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>SearchView.nib</key>
 		<data>
-		osSWaVZJDOTmsYhmiwTi4vUcbTo=
+		618BQ0cQ68X1ED1C1pCEN5THYKY=
 		</data>
 		<key>TagListView.nib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>utils.bundle/SearchView.xib</key>
 		<data>
-		eSzRyno8C71QoQbYo9FCkqLiH/4=
+		ARfbZX2iwrf/ccYNdyVLhNb43c4=
 		</data>
 		<key>utils.bundle/TagListView.xib</key>
 		<data>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ThzeVb/NSCwwzpyk62xu7hiYuZHjzWN/Y6dLF+5IhAs=
+			CUU4cDKtgb75f/kFLHjholegyuyBlxHJslHx8pYRC6Q=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W3RtfPlVt/PqKYgGL8PkDFD9tsDgKF734xYXRrOAobQ=
+			tIjWsvCGKXZL+6NV99ufT/EgKdvFfEBEqhIx+b6LKtk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -223,7 +223,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q2s1lPnsgbeNxbCNcBrff65Fj8qBOvJ06CHH/0PtD2A=
+			lQtjdJl7lcYsqDBEEQ/7RLYWSn4JlAFnumATbyMGyeU=
 			</data>
 		</dict>
 		<key>TagListView.nib</key>
@@ -265,7 +265,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cEhBYoRdJrmPckA1VEJfd644RZRFwLm90r/WW++k1yg=
+			PbY5k0z/nuL4iEMQGXa3uuMiErY6UQjWBhsUcEget6A=
 			</data>
 		</dict>
 		<key>utils.bundle/TagListView.xib</key>
