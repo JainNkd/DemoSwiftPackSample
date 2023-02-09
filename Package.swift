@@ -16,15 +16,19 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(
                    url: "https://github.com/FleksySDK/FleksySDK-iOS",
-                   exact: "4.3.3"
+                   exact: "4.5.4"
          ),
         .package(
                     url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-                    exact: "3.6.0"
+                    exact: "3.8.9"
                 ),
         .package(
                     url: "https://github.com/FleksySDK/iOS-CoreServices",
-                    exact: "1.3.2"
+                    exact: "1.4.0"
+                ),
+        .package(
+                    url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
+                    exact: "0.9.0"
                 )
     ],
     targets: [
@@ -36,6 +40,7 @@ let package = Package(
                 .product(name: "FleksySDK", package: "FleksySDK-iOS"),
                 .product(name: "FleksyEngine", package: "FleksyEngine-iOS"),
                 .product(name: "iOSCoreServices", package: "iOS-CoreServices"),
+                .product(name: "FleksyAppsCore", package: "iOS-FleksyAppsCore"),
                 "KulfyFramwork"]),
         .binaryTarget(
                     name: "KulfyFramwork",
