@@ -70,10 +70,7 @@
         "name": "FleksyKeyboardSDK",
         "printedName": "FleksyKeyboardSDK",
         "declKind": "Import",
-        "moduleName": "KulfyFramwork",
-        "declAttributes": [
-          "Exported"
-        ]
+        "moduleName": "KulfyFramwork"
       },
       {
         "kind": "TypeDecl",
@@ -1510,21 +1507,21 @@
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 333,
+      "offset": 322,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 339,
+      "offset": 328,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 385,
+      "offset": 374,
       "length": 2,
       "value": "50"
     },
