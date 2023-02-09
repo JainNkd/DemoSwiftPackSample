@@ -6,6 +6,6 @@ framework module KulfyFramwork {
 }
 
 module KulfyFramwork.Swift {
-    header "KulfyFramwork-Swift.h"
-    requires objc
+  header "KulfyFramwork-Swift.h"
+  requires objc
 }

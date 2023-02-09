@@ -1,0 +1,2190 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FleksyKeyboardSDK",
+        "printedName": "FleksyKeyboardSDK",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KulfySDKViewController",
+        "printedName": "KulfySDKViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)viewDidLoad",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC11viewDidLoadyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "createConfiguration",
+            "printedName": "createConfiguration()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardConfiguration",
+                "printedName": "FleksyKeyboardSDK.KeyboardConfiguration",
+                "usr": "c:@M@FleksyKeyboardSDK@objc(cs)KeyboardConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13KulfyFramwork0A17SDKViewControllerC19createConfiguration17FleksyKeyboardSDK0hF0CyF",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC19createConfiguration17FleksyKeyboardSDK0hF0CyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "declAttributes": [
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissKeyboard",
+            "printedName": "dismissKeyboard()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)dismissKeyboard",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC15dismissKeyboardyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "dismissKeyboard",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dismissKeyboardButton",
+            "printedName": "dismissKeyboardButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)dismissKeyboardButton",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC21dismissKeyboardButtonyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "dismissKeyboardButton",
+            "declAttributes": [
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "eventBus",
+            "printedName": "eventBus(_:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)eventBus:payload:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC8eventBus_7payloadySS_SDys11AnyHashableVypGSgtF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "eventBus:payload:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionStarted",
+            "printedName": "sessionStarted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)sessionStarted:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC14sessionStartedyySSF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "sessionStarted:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sessionEnded",
+            "printedName": "sessionEnded(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)sessionEnded:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC12sessionEndedyySSF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "sessionEnded:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customMagicButton",
+            "printedName": "customMagicButton(_:forAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)customMagicButton:forAction:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC17customMagicButton_9forActionySS_s5Int32VtF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "customMagicButton:forAction:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLayoutChanges",
+            "printedName": "onLayoutChanges(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)onLayoutChanges:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC15onLayoutChangesyySDys11AnyHashableVypGF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "onLayoutChanges:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "triggerOpenApp",
+            "printedName": "triggerOpenApp()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)triggerOpenApp",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC14triggerOpenAppyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "triggerOpenApp",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateKeyboardAppsTextDocumentProxy",
+            "printedName": "updateKeyboardAppsTextDocumentProxy(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UITextDocumentProxy?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextDocumentProxy",
+                    "printedName": "UIKit.UITextDocumentProxy",
+                    "usr": "c:objc(pl)UITextDocumentProxy"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)updateKeyboardAppsTextDocumentProxy:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC35updateKeyboardAppsTextDocumentProxyyySo06UITextiJ0_pSgF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "updateKeyboardAppsTextDocumentProxy:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "contextPropertiesChanged",
+            "printedName": "contextPropertiesChanged(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KeyboardProperties",
+                "printedName": "FleksyKeyboardSDK.KeyboardProperties",
+                "usr": "c:objc(cs)KeyboardProperties"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)contextPropertiesChanged:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC24contextPropertiesChangedyySo08KeyboardF0CF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "contextPropertiesChanged:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KulfySDKViewController",
+                "printedName": "KulfyFramwork.KulfySDKViewController",
+                "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KulfyFramwork.KulfySDKViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KulfySDKViewController",
+                    "printedName": "KulfyFramwork.KulfySDKViewController",
+                    "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)initWithCoder:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController",
+        "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC",
+        "moduleName": "KulfyFramwork",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@FleksyKeyboardSDK@objc(cs)FKKeyboardViewControllerSwift",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "FleksyKeyboardSDK.FKKeyboardViewController",
+          "UIKit.UIInputViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Reachability",
+        "printedName": "Reachability",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KulfyDashboardViewController",
+        "printedName": "KulfyDashboardViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)viewDidLoad",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC11viewDidLoadyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)viewDidAppear:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC13viewDidAppearyySbF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KulfyDashboardViewController",
+                "printedName": "KulfyFramwork.KulfyDashboardViewController",
+                "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KulfyFramwork.KulfyDashboardViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KulfyDashboardViewController",
+                    "printedName": "KulfyFramwork.KulfyDashboardViewController",
+                    "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)initWithCoder:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarTextDidEndEditing",
+            "printedName": "searchBarTextDidEndEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)searchBarTextDidEndEditing:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC26searchBarTextDidEndEditingyySo08UISearchG0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarTextDidEndEditing:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarShouldBeginEditing",
+            "printedName": "searchBarShouldBeginEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)searchBarShouldBeginEditing:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC27searchBarShouldBeginEditingySbSo08UISearchG0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarShouldBeginEditing:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarSearchButtonClicked",
+            "printedName": "searchBarSearchButtonClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)searchBarSearchButtonClicked:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC28searchBarSearchButtonClickedyySo08UISearchG0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarSearchButtonClicked:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarCancelButtonClicked",
+            "printedName": "searchBarCancelButtonClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfyDashboardViewController(im)searchBarCancelButtonClicked:",
+            "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC28searchBarCancelButtonClickedyySo08UISearchG0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarCancelButtonClicked:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KulfyFramwork@objc(cs)KulfyDashboardViewController",
+        "mangledName": "$s13KulfyFramwork0A23DashboardViewControllerC",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
+        "name": "SDWebImageWebPCoder",
+        "printedName": "SDWebImageWebPCoder",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KulfySDK",
+        "printedName": "KulfySDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK(im)viewDidLoad",
+            "mangledName": "$s13KulfyFramwork0A3SDKC11viewDidLoadyyF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KulfySDK",
+                "printedName": "KulfyFramwork.KulfySDK",
+                "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK(im)initWithNibName:bundle:",
+            "mangledName": "$s13KulfyFramwork0A3SDKC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "KulfyFramwork.KulfySDK?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KulfySDK",
+                    "printedName": "KulfyFramwork.KulfySDK",
+                    "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK(im)initWithCoder:",
+            "mangledName": "$s13KulfyFramwork0A3SDKC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDK",
+        "mangledName": "$s13KulfyFramwork0A3SDKC",
+        "moduleName": "KulfyFramwork",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "KulfyFramwork.KulfySDKViewController",
+          "FleksyKeyboardSDK.FKKeyboardViewController",
+          "UIKit.UIInputViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 642,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 656,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 669,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 683,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 819,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 833,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 846,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 860,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 906,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1061,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 590,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 812,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 826,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "FloatLiteral",
+      "offset": 839,
+      "length": 5,
+      "value": "0.282"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 853,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1007,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "Array",
+      "offset": 1117,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
+      "kind": "StringLiteral",
+      "offset": 1364,
+      "length": 16,
+      "value": "\"SlidingTabCell\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 333,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 385,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/PoweredByView.swift",
+      "kind": "StringLiteral",
+      "offset": 72,
+      "length": 15,
+      "value": "\"PoweredByView\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SearchView.swift",
+      "kind": "StringLiteral",
+      "offset": 168,
+      "length": 12,
+      "value": "\"SearchView\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 219,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "FloatLiteral",
+      "offset": 274,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "FloatLiteral",
+      "offset": 301,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 332,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 361,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 414,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 444,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "Array",
+      "offset": 508,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "Array",
+      "offset": 539,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "BooleanLiteral",
+      "offset": 567,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 1784,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 1812,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 1838,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 1864,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2359,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2421,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Models.swift",
+      "kind": "StringLiteral",
+      "offset": 2489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "IntegerLiteral",
+      "offset": 229,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 110,
+      "value": "\"\/v1\/kulfycloud\/search?limit=\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 785,
+      "length": 1,
+      "value": "\"&content=gif&language=Telugu&client=ios_keyboard&exact=true&keyword=\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 110,
+      "value": "\"\/v1\/kulfycloud\/search?limit=\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 1,
+      "value": "\"&content=gif&language=Telugu&client=ios_keyboard&exact=true&keyword=\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 1058,
+      "length": 75,
+      "value": "\"https:\/\/kulfycloud-api.kulfyapp.com\/api\/v1\/kulfycloud\/getSDKConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
+      "length": 41,
+      "value": "\"\/v1\/kulfycloud\/getkeyboardConfiguration\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 1244,
+      "length": 64,
+      "value": "\"\/v1\/kulfycloud\/getConcepts?language=Telugu&client=ios_keyboard\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 1340,
+      "length": 75,
+      "value": "\"\/v1\/kulfycloud\/getCategories?language=Telugu&client=ios_keyboard&concept=\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Network.swift",
+      "kind": "StringLiteral",
+      "offset": 1444,
+      "length": 67,
+      "value": "\"https:\/\/gateway.kulfyapp.com\/V2\/gifs\/getTags?client=ios_keyboard&\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/TagListView.swift",
+      "kind": "StringLiteral",
+      "offset": 170,
+      "length": 13,
+      "value": "\"TagListView\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/ResultNotFoundView.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 20,
+      "value": "\"ResultNotFoundView\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 18,
+      "value": "\"X-KULFYCLOUD-KEY\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 392,
+      "length": 38,
+      "value": "\"805c5bfe-9d16-4e93-8d37-365285809912\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 571,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 596,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 689,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 713,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 745,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 832,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 865,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 901,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 933,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 951,
+      "length": 12,
+      "value": "[\"Trending\"]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 990,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1032,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1089,
+      "length": 5,
+      "value": "243.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1095,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1111,
+      "length": 5,
+      "value": "176.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1117,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1132,
+      "length": 4,
+      "value": "94.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1137,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1152,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1196,
+      "length": 5,
+      "value": "240.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1202,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1218,
+      "length": 5,
+      "value": "240.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1224,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1239,
+      "length": 5,
+      "value": "240.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1245,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1260,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1475,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1508,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1849,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1882,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2092,
+      "length": 5,
+      "value": "0.424"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2106,
+      "length": 5,
+      "value": "0.424"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2119,
+      "length": 5,
+      "value": "0.424"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2133,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2298,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2335,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3412,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3445,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "Array",
+      "offset": 3598,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3639,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3799,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4013,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4026,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4038,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 4051,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4540,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4546,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4591,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5094,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyDashboardViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5166,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/CommonTagList.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 15,
+      "value": "\"CommonTagList\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
+      "kind": "Array",
+      "offset": 1358,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
+      "kind": "StringLiteral",
+      "offset": 1676,
+      "length": 11,
+      "value": "\"KulfyCell\""
+    }
+  ]
+}
