@@ -8,6 +8,78 @@
 		<data>
 		Noz2ejOlHOhY4jHRj2/jH1bbuUk=
 		</data>
+		<key>Frameworks/FleksyAppsCore.framework/FleksyAppsCore</key>
+		<data>
+		OjKAn6xommjgGXcnGXGRbJfBRVQ=
+		</data>
+		<key>Frameworks/FleksyAppsCore.framework/Info.plist</key>
+		<data>
+		aheT8kLOLD73DIuOZbeJKshYaYQ=
+		</data>
+		<key>Frameworks/FleksyAppsCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		TwSGa64Q8vthSPTBde/2tIQUrKI=
+		</data>
+		<key>Frameworks/FleksyEngine.framework/FleksyEngine</key>
+		<data>
+		8FSZuzUIHh68dzHvMVRNagJA4to=
+		</data>
+		<key>Frameworks/FleksyEngine.framework/Info.plist</key>
+		<data>
+		dHU0pAaMZvl5ydoRbJz5IYWW8fA=
+		</data>
+		<key>Frameworks/FleksyEngine.framework/_CodeSignature/CodeResources</key>
+		<data>
+		B+cZyz9INovRnq0HYhCRkQdBiNM=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/Assets.car</key>
+		<data>
+		d8Bq46ymWAg4VbPEvYNMACfegV0=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/FleksyKeyboardSDK</key>
+		<data>
+		hKEFPimJ2MIaDvhX/pIRLmftfts=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/Info.plist</key>
+		<data>
+		uhX65wsfaeSu1rdQp/Maq3hbKks=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/InvalidLicenseBackground.jpg</key>
+		<data>
+		Iua/qbefPWCIR/5f/bII3rxWNPo=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/InvalidLicenseBackgroundDark.jpg</key>
+		<data>
+		sa43OsAtcKb9V54Datyhm5FTllY=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2c71kz8iz7KWH1Hri1c8ihYAd5M=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/emoji_list_ios.txt</key>
+		<data>
+		iY8eGvfs6KaXfQJqSIq1ZlDNL2Q=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/flicon.ttf</key>
+		<data>
+		Z+/fd9J4mN26Gq4NLsNUXRxumYk=
+		</data>
+		<key>Frameworks/FleksyKeyboardSDK.framework/resourceArchive-en-US.jet</key>
+		<data>
+		ZAnk5/1gdvDHg2MNyZeL2boUGUY=
+		</data>
+		<key>Frameworks/iOSCoreServices.framework/Info.plist</key>
+		<data>
+		LkVus7+caF0GK+RRs+msc2twTZc=
+		</data>
+		<key>Frameworks/iOSCoreServices.framework/_CodeSignature/CodeResources</key>
+		<data>
+		jO4tBxysMn6+DW5egX0lGilzVN4=
+		</data>
+		<key>Frameworks/iOSCoreServices.framework/iOSCoreServices</key>
+		<data>
+		QE4l+JJtsevTTmvpq2P2a6Gqj70=
+		</data>
 		<key>Headers/KulfyFramwork-Swift.h</key>
 		<data>
 		WRrWnJoTv1P0cr5TvnRmA+lZtx8=
@@ -46,7 +118,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		iSuLL3LhFmSi5wL5bg2EdFTAdMQ=
+		NjQuJvehA8vwaQppnoaCbT2D/7o=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -58,7 +130,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vofxwUvBMK6Fbi1UNBIDyh1jfOM=
+		WRVRt4AI7oqxAGfZ2RM8LdFL/wE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -112,6 +184,132 @@
 			<key>hash2</key>
 			<data>
 			tmdRTO7hi9LNLjyZKE+NeVWxvV6t3hv3siFbLFrIynI=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyAppsCore.framework/FleksyAppsCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gJ13Nyn0B7aG2nt1SPSW80Vs317MvrolwgS84wH2DHU=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyAppsCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GHnljMcc+DQBHkw7vhoxFqpmAF9jlR7zpwVmIWCa+fk=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyAppsCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yRuuioMa9XSm6HdjKHHoa8QIKH8RfKDTYPlRhUO1PRs=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyEngine.framework/FleksyEngine</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pIInql3SSaR+3uXQ2U16MJKcWT/Piu4wx+wdK+G2Wsg=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyEngine.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mwg2pxz0YhF7HrIiFNyX85XOeAfZkRSWCwJsjjY5Ur0=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyEngine.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DDMLTFE7xghgir+ERkeGK5DDg7jrfuvbISWwxWrJYRo=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			85EU9a0YyblQWcNeFnHSQSINw8gh+pjUGCyLad/r6dA=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/FleksyKeyboardSDK</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f6PoIwQRobkfi8gsZKCkcOEmKgDr/Hr93PKcreLFA8s=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QWRHvYbnM4n003+b68LwoCgo8J7hxBMVNChMbGvHwKc=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/InvalidLicenseBackground.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+ckBH4n3W+s3X/5LQbZ/uZKBWFBj2dNOHplv9wOrHcM=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/InvalidLicenseBackgroundDark.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lwomKhBRUItssXhd9OcHs6qE3iJiN/Od5bnGvkpgiyA=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			He64iqovdb7gTqHnNUlAfP/+l+IWpN02mir7Hop2Qr8=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/emoji_list_ios.txt</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Dz5u2JC3d8Hw8sF6bSdvxT+TdparquRhcdkhB0/dFz4=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/flicon.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rwLy6AAXamv8GNmhhxcG1wtrIc1CymSpYvUwu4nlOUo=
+			</data>
+		</dict>
+		<key>Frameworks/FleksyKeyboardSDK.framework/resourceArchive-en-US.jet</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a8mE6qVez5UzRxtWe0kG/AvGVy8xgtEzwOmdY5Yuly8=
+			</data>
+		</dict>
+		<key>Frameworks/iOSCoreServices.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lpcidYkj6XeAi1IfU/SRfkthaP3Oml/WyncTa8R24NY=
+			</data>
+		</dict>
+		<key>Frameworks/iOSCoreServices.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QyehHKaihjRNkm2M/vPxwk1Mk3qSg8MIe7L60YnR35E=
+			</data>
+		</dict>
+		<key>Frameworks/iOSCoreServices.framework/iOSCoreServices</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pQ5+q4MZiHxli5YBFs3xpk4kLF2JW8vJN1nUt2UhS+c=
 			</data>
 		</dict>
 		<key>Headers/KulfyFramwork-Swift.h</key>
@@ -174,7 +372,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ix3XDrWAqL5gUuMwiLehaPHriMzUIfc88PdQQa/1Pe4=
+			1O326zENaCGquTjCc9QwjnIVHBX286CqM7+EvQlpyN4=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -195,7 +393,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JdZync7jQCqAl5x4jaIBjYUfk44XxxqtJaRlJZdBcGI=
+			IlSZoms7POqIjFdOUetyNVovEmxTxcnKb+Lxb1NSXiA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
