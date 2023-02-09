@@ -197,6 +197,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import FleksyKeyboardSDK;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -238,13 +240,35 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
+@class NSObject;
+@protocol UITextDocumentProxy;
+@class KeyboardProperties;
 
-SWIFT_CLASS("_TtC13KulfyFramwork8KulfySDK")
-@interface KulfySDK : KulfyDashboardViewController
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
+@interface KulfySDKViewController : FKKeyboardViewControllerSwift
+- (void)viewDidLoad;
+- (void)dismissKeyboard;
+- (void)dismissKeyboardButton;
+- (void)eventBus:(NSString * _Nonnull)event payload:(NSDictionary * _Nullable)dictPayload;
+- (void)sessionStarted:(NSString * _Nonnull)sessionId;
+- (void)sessionEnded:(NSString * _Nonnull)sessionId;
+- (void)customMagicButton:(NSString * _Nonnull)element forAction:(int32_t)action;
+- (void)onLayoutChanges:(NSDictionary * _Nonnull)dictLayout;
+- (void)triggerOpenApp;
+- (void)updateKeyboardAppsTextDocumentProxy:(id <UITextDocumentProxy> _Nullable)documentProxy;
+- (void)contextPropertiesChanged:(KeyboardProperties * _Nonnull)properties;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
+@interface KulfySDK : KulfySDKViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
@@ -455,6 +479,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import FleksyKeyboardSDK;
+@import Foundation;
 @import UIKit;
 #endif
 
@@ -496,13 +522,35 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
+@class NSObject;
+@protocol UITextDocumentProxy;
+@class KeyboardProperties;
 
-SWIFT_CLASS("_TtC13KulfyFramwork8KulfySDK")
-@interface KulfySDK : KulfyDashboardViewController
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
+@interface KulfySDKViewController : FKKeyboardViewControllerSwift
+- (void)viewDidLoad;
+- (void)dismissKeyboard;
+- (void)dismissKeyboardButton;
+- (void)eventBus:(NSString * _Nonnull)event payload:(NSDictionary * _Nullable)dictPayload;
+- (void)sessionStarted:(NSString * _Nonnull)sessionId;
+- (void)sessionEnded:(NSString * _Nonnull)sessionId;
+- (void)customMagicButton:(NSString * _Nonnull)element forAction:(int32_t)action;
+- (void)onLayoutChanges:(NSDictionary * _Nonnull)dictLayout;
+- (void)triggerOpenApp;
+- (void)updateKeyboardAppsTextDocumentProxy:(id <UITextDocumentProxy> _Nullable)documentProxy;
+- (void)contextPropertiesChanged:(KeyboardProperties * _Nonnull)properties;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
+@interface KulfySDK : KulfySDKViewController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 
