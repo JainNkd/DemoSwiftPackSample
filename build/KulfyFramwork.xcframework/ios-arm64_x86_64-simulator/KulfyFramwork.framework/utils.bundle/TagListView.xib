@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,8 +10,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TagListView" customModule="KulfyFramwork">
             <connections>
+                <outlet property="bagroundView" destination="WzL-2I-TnS" id="0Jy-OE-dNi"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="1gX-LL-U88"/>
                 <outlet property="homeIconView" destination="sV9-xQ-PbU" id="4Z7-Er-w9C"/>
+                <outlet property="kulfyLogoImage" destination="6fP-pp-dCC" id="yfD-6h-TIa"/>
+                <outlet property="poweredByImage" destination="6ZP-bM-AlV" id="mbO-Qa-vXS"/>
                 <outlet property="tagsView" destination="GOe-8e-PFy" id="xd5-z7-uoy"/>
             </connections>
         </placeholder>
@@ -21,45 +24,73 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WzL-2I-TnS">
-                    <rect key="frame" x="5" y="0.0" width="404" height="45"/>
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="poweredBy.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ZP-bM-AlV">
+                            <rect key="frame" x="296" y="15" width="47" height="20"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="47" id="IGE-9v-U01"/>
+                                <constraint firstAttribute="height" constant="20" id="zaT-ae-ltM"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="klogo-noshadow.png" translatesAutoresizingMaskIntoConstraints="NO" id="6fP-pp-dCC">
+                            <rect key="frame" x="344" y="14.666666666666664" width="60" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="JQB-gM-bVL"/>
+                                <constraint firstAttribute="width" constant="60" id="QqR-89-XFB"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
                     <color key="backgroundColor" red="0.21960784310000001" green="0.22352941179999999" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="6fP-pp-dCC" firstAttribute="centerY" secondItem="WzL-2I-TnS" secondAttribute="centerY" id="12v-Lr-X8Y"/>
+                        <constraint firstItem="6ZP-bM-AlV" firstAttribute="centerY" secondItem="6fP-pp-dCC" secondAttribute="centerY" id="Dki-iE-ypx"/>
+                        <constraint firstItem="6fP-pp-dCC" firstAttribute="leading" secondItem="6ZP-bM-AlV" secondAttribute="trailing" constant="1" id="IUb-79-4Gw"/>
+                        <constraint firstAttribute="trailing" secondItem="6fP-pp-dCC" secondAttribute="trailing" constant="10" id="kop-2D-nWB"/>
+                        <constraint firstItem="6fP-pp-dCC" firstAttribute="leading" secondItem="6ZP-bM-AlV" secondAttribute="trailing" constant="1" id="tX3-MQ-RH5"/>
+                    </constraints>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
                             <real key="value" value="4"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sV9-xQ-PbU">
-                    <rect key="frame" x="13" y="12.5" width="20" height="20"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home-icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="sV9-xQ-PbU">
+                    <rect key="frame" x="10" y="15" width="20" height="20"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="20" id="DC9-CB-abO"/>
                         <constraint firstAttribute="width" constant="20" id="mpJ-8Z-qEn"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GOe-8e-PFy" customClass="SlidingTabsView" customModule="KulfyFramwork">
-                    <rect key="frame" x="41" y="5" width="363" height="35"/>
+                    <rect key="frame" x="38" y="10" width="248" height="30"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="R6B-O4-dbg"/>
+                    </constraints>
                 </view>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="WzL-2I-TnS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0p2-vg-HFY"/>
-                <constraint firstAttribute="trailing" secondItem="WzL-2I-TnS" secondAttribute="trailing" constant="5" id="9GP-LI-gPC"/>
-                <constraint firstAttribute="trailing" secondItem="GOe-8e-PFy" secondAttribute="trailing" constant="10" id="EZ5-An-8UJ"/>
-                <constraint firstItem="GOe-8e-PFy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="JpA-BK-Tea"/>
-                <constraint firstItem="WzL-2I-TnS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="N1c-Cf-6bB"/>
+                <constraint firstAttribute="trailing" secondItem="WzL-2I-TnS" secondAttribute="trailing" id="9GP-LI-gPC"/>
+                <constraint firstItem="WzL-2I-TnS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="N1c-Cf-6bB"/>
+                <constraint firstItem="sV9-xQ-PbU" firstAttribute="centerY" secondItem="WzL-2I-TnS" secondAttribute="centerY" id="V2d-S3-zk6"/>
                 <constraint firstItem="sV9-xQ-PbU" firstAttribute="centerY" secondItem="GOe-8e-PFy" secondAttribute="centerY" id="f7f-u5-uA6"/>
-                <constraint firstItem="sV9-xQ-PbU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="13" id="kLh-4p-acD"/>
+                <constraint firstItem="6ZP-bM-AlV" firstAttribute="leading" secondItem="GOe-8e-PFy" secondAttribute="trailing" constant="10" id="ftJ-V7-khk"/>
+                <constraint firstItem="sV9-xQ-PbU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="kLh-4p-acD"/>
                 <constraint firstItem="GOe-8e-PFy" firstAttribute="leading" secondItem="sV9-xQ-PbU" secondAttribute="trailing" constant="8" symbolic="YES" id="nBk-B8-ofx"/>
-                <constraint firstAttribute="bottom" secondItem="WzL-2I-TnS" secondAttribute="bottom" constant="5" id="p8q-al-TvS"/>
-                <constraint firstItem="GOe-8e-PFy" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" constant="-10" id="slg-uQ-h9e"/>
+                <constraint firstAttribute="bottom" secondItem="WzL-2I-TnS" secondAttribute="bottom" id="p8q-al-TvS"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <point key="canvasLocation" x="131.8840579710145" y="120.53571428571428"/>
         </view>
     </objects>
     <resources>
+        <image name="home-icon.png" width="16" height="16"/>
+        <image name="klogo-noshadow.png" width="60" height="23"/>
+        <image name="poweredBy.png" width="68" height="17"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

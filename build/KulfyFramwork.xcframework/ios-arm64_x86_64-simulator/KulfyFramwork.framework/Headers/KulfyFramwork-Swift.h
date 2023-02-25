@@ -283,6 +283,7 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
 @interface KulfySDKViewController : FKKeyboardViewControllerSwift
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)dismissKeyboard;
 - (void)dismissKeyboardButton;
 - (void)eventBus:(NSString * _Nonnull)event payload:(NSDictionary * _Nullable)dictPayload;
@@ -304,6 +305,16 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+@interface KulfySDKViewController (SWIFT_EXTENSION(KulfyFramwork)) <UISearchBarDelegate>
+- (BOOL)searchBarShouldEndEditing:(UISearchBar * _Nonnull)searchBar SWIFT_WARN_UNUSED_RESULT;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (BOOL)searchBarShouldBeginEditing:(UISearchBar * _Nonnull)searchBar SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 
@@ -604,6 +615,7 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
 @interface KulfySDKViewController : FKKeyboardViewControllerSwift
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)dismissKeyboard;
 - (void)dismissKeyboardButton;
 - (void)eventBus:(NSString * _Nonnull)event payload:(NSDictionary * _Nullable)dictPayload;
@@ -625,6 +637,16 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
+
+
+@interface KulfySDKViewController (SWIFT_EXTENSION(KulfyFramwork)) <UISearchBarDelegate>
+- (BOOL)searchBarShouldEndEditing:(UISearchBar * _Nonnull)searchBar SWIFT_WARN_UNUSED_RESULT;
+- (void)searchBarSearchButtonClicked:(UISearchBar * _Nonnull)searchBar;
+- (BOOL)searchBarShouldBeginEditing:(UISearchBar * _Nonnull)searchBar SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 
 

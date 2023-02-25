@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,8 +11,10 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SearchView" customModule="KulfyFramwork">
             <connections>
                 <outlet property="contentView" destination="iN0-l3-epB" id="ZVA-8C-w3z"/>
+                <outlet property="kIconButton" destination="eIx-zo-xiE" id="2hK-Cg-G14"/>
                 <outlet property="logoIconView" destination="pNS-4v-uYe" id="vkW-rp-fGk"/>
                 <outlet property="searchBarView" destination="FbM-Be-K9Y" id="IKV-J6-PwT"/>
+                <outlet property="sortButton" destination="j3N-Wl-t1v" id="0cP-Ek-cs6"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -33,6 +35,15 @@
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIx-zo-xiE">
+                    <rect key="frame" x="5" y="3" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="Lb6-Kj-374"/>
+                        <constraint firstAttribute="width" constant="38" id="td0-Ln-jbA"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                </button>
                 <searchBar contentMode="redraw" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="FbM-Be-K9Y">
                     <rect key="frame" x="47" y="0.0" width="317" height="44"/>
                     <textInputTraits key="textInputTraits"/>
@@ -44,7 +55,7 @@
                         <constraint firstAttribute="width" constant="38" id="QL9-hR-kRK"/>
                     </constraints>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="plain" title="T"/>
+                    <buttonConfiguration key="configuration" style="plain"/>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
@@ -55,7 +66,9 @@
                 <constraint firstItem="FbM-Be-K9Y" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="74o-Io-3ON"/>
                 <constraint firstItem="FbM-Be-K9Y" firstAttribute="leading" secondItem="pNS-4v-uYe" secondAttribute="trailing" constant="4" id="JAd-Xb-aGK"/>
                 <constraint firstItem="pNS-4v-uYe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="LjD-39-QF9"/>
+                <constraint firstItem="eIx-zo-xiE" firstAttribute="centerY" secondItem="pNS-4v-uYe" secondAttribute="centerY" id="NsP-f4-dwK"/>
                 <constraint firstItem="pNS-4v-uYe" firstAttribute="centerY" secondItem="FbM-Be-K9Y" secondAttribute="centerY" id="SKg-bm-nUf"/>
+                <constraint firstItem="eIx-zo-xiE" firstAttribute="centerX" secondItem="pNS-4v-uYe" secondAttribute="centerX" id="iFX-EK-zDL"/>
                 <constraint firstAttribute="trailing" secondItem="j3N-Wl-t1v" secondAttribute="trailing" constant="5" id="oFE-sn-50R"/>
                 <constraint firstAttribute="trailing" secondItem="FbM-Be-K9Y" secondAttribute="trailing" constant="50" id="v6r-U8-ozr"/>
                 <constraint firstItem="j3N-Wl-t1v" firstAttribute="centerY" secondItem="FbM-Be-K9Y" secondAttribute="centerY" id="ylG-Pp-yM5"/>

@@ -57,6 +57,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -93,7 +110,41 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC11viewDidLoadyyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@KulfyFramwork@objc(cs)KulfySDKViewController(im)viewDidAppear:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC13viewDidAppearyySbF",
+            "moduleName": "KulfyFramwork",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
             "declAttributes": [
               "Dynamic",
               "ObjC",
@@ -120,6 +171,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC19createConfiguration17FleksyKeyboardSDK0hF0CyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "declAttributes": [
               "Custom",
               "Override",
@@ -143,6 +195,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC15dismissKeyboardyyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "dismissKeyboard",
             "declAttributes": [
               "Dynamic",
@@ -170,6 +223,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC21dismissKeyboardButtonyyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "dismissKeyboardButton",
             "declAttributes": [
               "ObjC",
@@ -228,6 +282,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC8eventBus_7payloadySS_SDys11AnyHashableVypGSgtF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "eventBus:payload:",
             "declAttributes": [
               "Dynamic",
@@ -260,6 +315,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC14sessionStartedyySSF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "sessionStarted:",
             "declAttributes": [
               "Dynamic",
@@ -292,6 +348,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC12sessionEndedyySSF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "sessionEnded:",
             "declAttributes": [
               "Dynamic",
@@ -330,6 +387,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC17customMagicButton_9forActionySS_s5Int32VtF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "customMagicButton:forAction:",
             "declAttributes": [
               "Dynamic",
@@ -375,6 +433,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC15onLayoutChangesyySDys11AnyHashableVypGF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "onLayoutChanges:",
             "declAttributes": [
               "Dynamic",
@@ -401,6 +460,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC14triggerOpenAppyyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "triggerOpenApp",
             "declAttributes": [
               "Dynamic",
@@ -441,6 +501,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC35updateKeyboardAppsTextDocumentProxyyySo06UITextiJ0_pSgF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "updateKeyboardAppsTextDocumentProxy:",
             "declAttributes": [
               "Dynamic",
@@ -473,6 +534,7 @@
             "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC24contextPropertiesChangedyySo08KeyboardF0CF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "contextPropertiesChanged:",
             "declAttributes": [
               "Dynamic",
@@ -578,6 +640,101 @@
               "Required"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarShouldEndEditing",
+            "printedName": "searchBarShouldEndEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfySDKViewController(im)searchBarShouldEndEditing:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC25searchBarShouldEndEditingySbSo08UISearchF0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarShouldEndEditing:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarSearchButtonClicked",
+            "printedName": "searchBarSearchButtonClicked(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfySDKViewController(im)searchBarSearchButtonClicked:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC28searchBarSearchButtonClickedyySo08UISearchF0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarSearchButtonClicked:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "searchBarShouldBeginEditing",
+            "printedName": "searchBarShouldBeginEditing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UISearchBar",
+                "printedName": "UIKit.UISearchBar",
+                "usr": "c:objc(cs)UISearchBar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@KulfyFramwork@objc(cs)KulfySDKViewController(im)searchBarShouldBeginEditing:",
+            "mangledName": "$s13KulfyFramwork0A17SDKViewControllerC27searchBarShouldBeginEditingySbSo08UISearchF0CF",
+            "moduleName": "KulfyFramwork",
+            "objc_name": "searchBarShouldBeginEditing:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -724,6 +881,33 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "KulfyFramwork"
       },
       {
         "kind": "Import",
@@ -1451,79 +1635,478 @@
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 590,
+      "offset": 589,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "FloatLiteral",
-      "offset": 812,
+      "offset": 811,
       "length": 5,
       "value": "0.282"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "FloatLiteral",
-      "offset": 826,
+      "offset": 825,
       "length": 5,
       "value": "0.282"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "FloatLiteral",
-      "offset": 839,
+      "offset": 838,
       "length": 5,
       "value": "0.282"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 853,
+      "offset": 852,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1007,
+      "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "Array",
-      "offset": 1117,
+      "offset": 1116,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/SlidingTabsView.swift",
       "kind": "StringLiteral",
-      "offset": 1364,
+      "offset": 1363,
       "length": 16,
       "value": "\"SlidingTabCell\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 401,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 474,
+      "length": 18,
+      "value": "\"X-KULFYCLOUD-KEY\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 15,
+      "value": "\"X-KEYBOARD-ID\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 563,
+      "length": 38,
+      "value": "\"805c5bfe-9d16-4e93-8d37-365285809912\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 623,
+      "length": 18,
+      "value": "\"07x34234234..234\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 322,
+      "offset": 787,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 862,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 886,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 918,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1043,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1076,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1112,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1144,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1162,
+      "length": 12,
+      "value": "[\"Trending\"]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1201,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1241,
+      "length": 60,
+      "value": "[\"telugu\", \"tamil\", \"hindi\", \"malayalam\", \"nigeria\", \"pakisthan\"]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 1338,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 328,
+      "offset": 1486,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 374,
+      "offset": 1532,
       "length": 2,
       "value": "50"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1970,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2017,
+      "length": 3,
+      "value": "210"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3048,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3101,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3202,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3378,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3384,
+      "length": 2,
+      "value": "90"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3431,
+      "length": 3,
+      "value": "130"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "Array",
+      "offset": 3462,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3744,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3884,
+      "length": 8,
+      "value": "\"Latest\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 3893,
+      "length": 9,
+      "value": "\"Popular\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3958,
+      "length": 3,
+      "value": "125"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3966,
+      "length": 2,
+      "value": "95"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3977,
+      "length": 3,
+      "value": "120"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3990,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4118,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4283,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4289,
+      "length": 3,
+      "value": "220"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4337,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4438,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4471,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4513,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4782,
+      "length": 3,
+      "value": "260"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4830,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4931,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4964,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5568,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5819,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5832,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5844,
+      "length": 4,
+      "value": "0.28"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5857,
+      "length": 3,
+      "value": "1.0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/PoweredByView.swift",
@@ -1771,11 +2354,46 @@
       "value": "\"https:\/\/gateway.kulfyapp.com\/V2\/gifs\/getTags?client=ios_keyboard&\""
     },
     {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/LanguageView.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 14,
+      "value": "\"LanguageView\""
+    },
+    {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/TagListView.swift",
       "kind": "StringLiteral",
       "offset": 170,
       "length": 13,
       "value": "\"TagListView\""
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Colors.swift",
+      "kind": "IntegerLiteral",
+      "offset": 999,
+      "length": 6,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 5468,
+      "length": 15,
+      "value": "\"SelectedTheme\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/ResultNotFoundView.swift",
@@ -2165,21 +2783,21 @@
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1245,
+      "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
       "kind": "Array",
-      "offset": 1358,
+      "offset": 1363,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfyCollectionView.swift",
       "kind": "StringLiteral",
-      "offset": 1676,
+      "offset": 1681,
       "length": 11,
       "value": "\"KulfyCell\""
     }

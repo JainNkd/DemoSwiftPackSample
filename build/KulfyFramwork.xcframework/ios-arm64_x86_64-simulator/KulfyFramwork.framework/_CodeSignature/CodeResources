@@ -6,11 +6,11 @@
 	<dict>
 		<key>CommonTagList.nib</key>
 		<data>
-		Noz2ejOlHOhY4jHRj2/jH1bbuUk=
+		/a25TOdXeizeMDqOSnBSnwOPn8A=
 		</data>
 		<key>Headers/KulfyFramwork-Swift.h</key>
 		<data>
-		gV2c0OdifcqGFUQzzdNCZ9AA1YQ=
+		BU59ZexOJKWrdAGysTxR4rkd9yE=
 		</data>
 		<key>Headers/KulfyFramwork.h</key>
 		<data>
@@ -24,6 +24,18 @@
 		<data>
 		6Y3GhkQFD+cKm68oERC77vZ+Qnk=
 		</data>
+		<key>KulfySDKResource.bundle/Rectangle39.png</key>
+		<data>
+		3O435DRy/a54isQ5AJs5PCy0rQo=
+		</data>
+		<key>KulfySDKResource.bundle/backarrow.png</key>
+		<data>
+		lr0/aFFvj3sMbEvCV2heEEjGRio=
+		</data>
+		<key>KulfySDKResource.bundle/checked.png</key>
+		<data>
+		7XkbFW0nSGhl2nYLprjV9uqZZ34=
+		</data>
 		<key>KulfySDKResource.bundle/home-icon.png</key>
 		<data>
 		6PDMuC6ro/1sHajJdIzOTuuf7fE=
@@ -36,13 +48,37 @@
 		<data>
 		kLCUq/5Gv0IofDjyYpQaokq8E+I=
 		</data>
+		<key>KulfySDKResource.bundle/klogo-noshadow.png</key>
+		<data>
+		yP4KPAVS96ymXk2VUbMFOQd2eWM=
+		</data>
+		<key>KulfySDKResource.bundle/logo_full.png</key>
+		<data>
+		fvvpfX06xTA/23/pRVS6FWIOzaY=
+		</data>
+		<key>KulfySDKResource.bundle/poweredBy.png</key>
+		<data>
+		fZZoov+1gs4DyeOeWftMBMkw3P8=
+		</data>
+		<key>KulfySDKResource.bundle/setting_black.png</key>
+		<data>
+		gXwo0xQepwprLWuahl2g90U4Iwg=
+		</data>
+		<key>KulfySDKResource.bundle/setting_white.png</key>
+		<data>
+		ieprKc/w4gpGepZvb7Otp4GAPx4=
+		</data>
+		<key>LanguageView.nib</key>
+		<data>
+		tXmwRStR/RLMfCOHUw/BbajDX2I=
+		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SCA2cSP7B9VUbFlhwAHzGm/0TZ4=
+		hRrpMwL/Gldo0JIgGkfwiN6lHxg=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4Ii736U9g5Ajbc0qKvmUGeW5Jjk=
+		o6aO219R94zZTZRU6Wwdb/ICSpI=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,19 +86,19 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4Ii736U9g5Ajbc0qKvmUGeW5Jjk=
+		o6aO219R94zZTZRU6Wwdb/ICSpI=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Y9/H31EQL71UQsvah3K7Fl9joRk=
+		jyMSkOSwQr/logjMx6ZN5eo+EgI=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SCA2cSP7B9VUbFlhwAHzGm/0TZ4=
+		hRrpMwL/Gldo0JIgGkfwiN6lHxg=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		TR+blLKuJkZrJp9duAFZArfmy7o=
+		OXjtxUbI3EMbtCikxqlmtSSzlvA=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +106,11 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TR+blLKuJkZrJp9duAFZArfmy7o=
+		OXjtxUbI3EMbtCikxqlmtSSzlvA=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vW3hKTcLEvS1nmWe/X1S7WddxN8=
+		cRMHXV1F5F6kmltBO/cxoS7Jj9U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -86,23 +122,27 @@
 		</data>
 		<key>ResultNotFoundView.nib</key>
 		<data>
-		D/mZ+0fIOPe8XlX7hUQNYJ3b7jU=
+		8V+JOAc2qQeqLe59+qt44AqFYTs=
 		</data>
 		<key>SearchView.nib</key>
 		<data>
-		HZ3cY5W6l3qx6xXcMMCOspvJON4=
+		TUW5dpqGxldlrcnyLxviRD/Yn4U=
 		</data>
 		<key>TagListView.nib</key>
 		<data>
-		rFkbDFqptBNgtryVgSW2otRP/I4=
+		0Oi9yXKBGsQP0W7u1vmIA+G16RY=
 		</data>
 		<key>utils.bundle/CommonTagList.xib</key>
 		<data>
-		LZIkuosQeqw8Hlkhj7pESJXv3z4=
+		GrDOzE7pWJdZJfBnUfeoK4GrRI0=
 		</data>
 		<key>utils.bundle/KulfyCell.xib</key>
 		<data>
 		jcGgxgb4otedUQuk1bNGZEBzqbo=
+		</data>
+		<key>utils.bundle/LanguageView.xib</key>
+		<data>
+		Z9KcGt2kv9IArladDVgbQ/56MNA=
 		</data>
 		<key>utils.bundle/PoweredByView.xib</key>
 		<data>
@@ -114,11 +154,11 @@
 		</data>
 		<key>utils.bundle/SearchView.xib</key>
 		<data>
-		ARfbZX2iwrf/ccYNdyVLhNb43c4=
+		Dff0mS94P00jZlDaBCFRx1fBtxM=
 		</data>
 		<key>utils.bundle/TagListView.xib</key>
 		<data>
-		6ghfqu9/TCVHOrvuFbaBOJkDWOM=
+		B0n8TtzJcKdotP4D6OaWKlFzXAg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -127,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tmdRTO7hi9LNLjyZKE+NeVWxvV6t3hv3siFbLFrIynI=
+			s12LVlPQEvG+NX0++L/gAmUkNCSCu8U1Nkq/s4BdU14=
 			</data>
 		</dict>
 		<key>Headers/KulfyFramwork-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lr94zLmddGlO88IP3uGjuieWrhb24nXnLwl8MWU+J9w=
+			IpesYCZRGXh+TTbqLRXSUjvtOVukdttt1Pq+apdUMsA=
 			</data>
 		</dict>
 		<key>Headers/KulfyFramwork.h</key>
@@ -149,6 +189,27 @@
 			<key>hash2</key>
 			<data>
 			zn0tHrRGlpC3ahWUfcXA2hRO3Ry04Eq947oJRb1wMsI=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/Rectangle39.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pA5O1vaBht4mNmx8PNT9Hg3dGgmPRUH6rybkd8UfWjs=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/backarrow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7iYJJWDRi59ULdyFl9R7CjW4AEoYZjfHKCBI7Uz+2JM=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/checked.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			g3TamAGAntPQYbaaM2dAPo1DCP1ILiLOqLAdjN3iSrY=
 			</data>
 		</dict>
 		<key>KulfySDKResource.bundle/home-icon.png</key>
@@ -172,18 +233,60 @@
 			7diyL6lHNYTrApLd/OoZVlJTOq18gSaml8DeNXV8Ekk=
 			</data>
 		</dict>
+		<key>KulfySDKResource.bundle/klogo-noshadow.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4UxdVEMSWJfGWpFcpTKoeL4Z3zO/Fpl7lkLaOE+rCak=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/logo_full.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gu62v+QJb2wvu7tRAdJxK9gJUj0B6f6wFmlcdHKd/Fk=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/poweredBy.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PPuQOgrkhfQx4SXDAgszTwL7DXHR2+GVhhxWZ5p7kDo=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/setting_black.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ydBzbQTxNQMUPu9zruIGAR+ZeTbxBAcJHCMBH6+z8B8=
+			</data>
+		</dict>
+		<key>KulfySDKResource.bundle/setting_white.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SUAEjICDxVWzJAFYbiMToSd4mCK6pr4giN1lZ9S0KMY=
+			</data>
+		</dict>
+		<key>LanguageView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7XsjeJ5sFgO1tA/W1D88siNhK60Bwbbg5rEJrtOA6Po=
+			</data>
+		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+c/jB9AUJaDVHdiMI5yvtz2NqzaZDxtxdBYShC1Qr1w=
+			YVxqloBw4UGJZUL0LVuHLepp/xH9vGs97PprdHUHOjY=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NvDNRWtP2ojGtgXbO1Rmo+98AVsY+qyhUdwUqGg5yi8=
+			Pze2WOdDcq4q0WqoAugxSeGM0Ul4ZR9ut1fbkdeCjUo=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -197,28 +300,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NvDNRWtP2ojGtgXbO1Rmo+98AVsY+qyhUdwUqGg5yi8=
+			Pze2WOdDcq4q0WqoAugxSeGM0Ul4ZR9ut1fbkdeCjUo=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			63R09mf4Lu+c7HLiac1UBfQxMVtswB2ev580jcS9Ij0=
+			BpPctSiirpUR28ZayNluGHK0lycHuXdlGLdGGs3W204=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+c/jB9AUJaDVHdiMI5yvtz2NqzaZDxtxdBYShC1Qr1w=
+			YVxqloBw4UGJZUL0LVuHLepp/xH9vGs97PprdHUHOjY=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lD2yVEn1sCOjJhk95piSTQOwpC9y5UGpn1R5F7HeTg=
+			xJVdA8EssruNSwZ296ayhQhneJ82rxv9E1RFF3vePvg=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -232,14 +335,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8lD2yVEn1sCOjJhk95piSTQOwpC9y5UGpn1R5F7HeTg=
+			xJVdA8EssruNSwZ296ayhQhneJ82rxv9E1RFF3vePvg=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MjOoqlPcONM1ErhMY+niQ7PTpQ4gIZzx+q4WNd/b9bo=
+			3Gq1iemTbvUQVdEskfkoguj3g9Q+Zf5nH9H0Ke/k0jI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -260,28 +363,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+FWFmL+uUNuNBOrKOkX7mRMiv9hdJ79y5by23C7Z2xc=
+			c7ID+S40OwEOs5h68C84oTohW2KwTm6QN2oCIE6L7Y4=
 			</data>
 		</dict>
 		<key>SearchView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tq0Qh+qqtb9kRaIoZvQro9aCu3hsQznUvFlaTIDv/mo=
+			5En/OwuedpqEI0dAde9wmu3U157Du+0GBU/tIsnvWj0=
 			</data>
 		</dict>
 		<key>TagListView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+CyNKuJGjAq3gHFB8ZOpk8+u2sglKnAwQ9SxD6U6LM=
+			FFO2CtCU6VGkuXGiPgnOlfLdupa+c22ZdbtTcREeqmQ=
 			</data>
 		</dict>
 		<key>utils.bundle/CommonTagList.xib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vgOzeTF6Rj99YJRbk/u/zv0d2fKQ0qZdGTWwUyK+wtU=
+			ler8RX6a2BjGq3+nv48tZRe40Ik0M5+y0M4pLkLIPPo=
 			</data>
 		</dict>
 		<key>utils.bundle/KulfyCell.xib</key>
@@ -289,6 +392,13 @@
 			<key>hash2</key>
 			<data>
 			b6FsfJaZgjblT/94+/rV2UZhQR8dvfsbXDNfcppC8w8=
+			</data>
+		</dict>
+		<key>utils.bundle/LanguageView.xib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R9vzLq8yu3Fcgq9SRC2tDIM2prrmBWpEaR3ACjwMX2k=
 			</data>
 		</dict>
 		<key>utils.bundle/PoweredByView.xib</key>
@@ -309,14 +419,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PbY5k0z/nuL4iEMQGXa3uuMiErY6UQjWBhsUcEget6A=
+			e93o7vRnO4N0KrMkpVHdSy2qpONBj3dbHhAgr+0yWPM=
 			</data>
 		</dict>
 		<key>utils.bundle/TagListView.xib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Afsrb8dF/h73W2Nsg+fdZ26gzLVpndCLe5nOnHrWUAQ=
+			WjgNM4gK/JsTF0vI6Y0S4NedxtmAvRjmQYHF0kU2/k4=
 			</data>
 		</dict>
 	</dict>
