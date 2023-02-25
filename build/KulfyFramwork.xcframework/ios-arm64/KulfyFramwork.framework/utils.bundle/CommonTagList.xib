@@ -19,7 +19,7 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" restorationIdentifier="CommonTagList" translatesAutoresizingMaskIntoConstraints="NO" id="P2x-0L-M8K" customClass="SlidingTabsView">
+                <view contentMode="scaleToFill" restorationIdentifier="CommonTagList" translatesAutoresizingMaskIntoConstraints="NO" id="P2x-0L-M8K" customClass="SlidingTabsView" customModule="KulfyFramwork">
                     <rect key="frame" x="5" y="7" width="399" height="30"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     <constraints>
