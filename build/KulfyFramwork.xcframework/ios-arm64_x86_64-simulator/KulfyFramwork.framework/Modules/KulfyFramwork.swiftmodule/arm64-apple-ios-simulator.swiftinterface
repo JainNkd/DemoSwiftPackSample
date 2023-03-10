@@ -46,7 +46,7 @@ extension KulfyFramwork.KulfyDashboardViewController : UIKit.UISearchBarDelegate
   @_Concurrency.MainActor(unsafe) @objc dynamic public func searchBarCancelButtonClicked(_ searchBar: UIKit.UISearchBar)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class KulfySDK : KulfyFramwork.KulfySDKViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit

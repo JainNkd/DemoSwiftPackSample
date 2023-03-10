@@ -74,11 +74,11 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hRrpMwL/Gldo0JIgGkfwiN6lHxg=
+		jCZa8l1kqOt1aoDy3wpUFSZt9oo=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		o6aO219R94zZTZRU6Wwdb/ICSpI=
+		V6jK4UjI6yZGXLIX/Hz/08JXUrw=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,19 +86,19 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o6aO219R94zZTZRU6Wwdb/ICSpI=
+		V6jK4UjI6yZGXLIX/Hz/08JXUrw=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jyMSkOSwQr/logjMx6ZN5eo+EgI=
+		ueAdx9YnWUTmZYUNoJfEUdIMa00=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hRrpMwL/Gldo0JIgGkfwiN6lHxg=
+		jCZa8l1kqOt1aoDy3wpUFSZt9oo=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OXjtxUbI3EMbtCikxqlmtSSzlvA=
+		SgOLp2/Fwn5M04URYxrkFu02dis=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OXjtxUbI3EMbtCikxqlmtSSzlvA=
+		SgOLp2/Fwn5M04URYxrkFu02dis=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cRMHXV1F5F6kmltBO/cxoS7Jj9U=
+		sZMhtN2scmsvJbxc9ZtN28scc3s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -279,14 +279,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVxqloBw4UGJZUL0LVuHLepp/xH9vGs97PprdHUHOjY=
+			5ytj1iMRWgxuzVDdXaXVXRp89Fo2HtAzfXN5/TK/snE=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pze2WOdDcq4q0WqoAugxSeGM0Ul4ZR9ut1fbkdeCjUo=
+			dvGOzXJMHlVjtfY9Tu4v862KdCrAqORr1nAgWG55fBs=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -300,28 +300,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pze2WOdDcq4q0WqoAugxSeGM0Ul4ZR9ut1fbkdeCjUo=
+			dvGOzXJMHlVjtfY9Tu4v862KdCrAqORr1nAgWG55fBs=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BpPctSiirpUR28ZayNluGHK0lycHuXdlGLdGGs3W204=
+			RaFxsS6BRA4e2eE1aWdCLfyhsdTSqd8PqXYiVSUSPtY=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVxqloBw4UGJZUL0LVuHLepp/xH9vGs97PprdHUHOjY=
+			5ytj1iMRWgxuzVDdXaXVXRp89Fo2HtAzfXN5/TK/snE=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJVdA8EssruNSwZ296ayhQhneJ82rxv9E1RFF3vePvg=
+			VE973QhjLcC1L5YRlIt2gRM+F/l9CbncrTnWwUskZi8=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -335,14 +335,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJVdA8EssruNSwZ296ayhQhneJ82rxv9E1RFF3vePvg=
+			VE973QhjLcC1L5YRlIt2gRM+F/l9CbncrTnWwUskZi8=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Gq1iemTbvUQVdEskfkoguj3g9Q+Zf5nH9H0Ke/k0jI=
+			Hl6FVsDKNSZAx6rgRNxTcGd3wrKPjS56Tn6MDg81Qyw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

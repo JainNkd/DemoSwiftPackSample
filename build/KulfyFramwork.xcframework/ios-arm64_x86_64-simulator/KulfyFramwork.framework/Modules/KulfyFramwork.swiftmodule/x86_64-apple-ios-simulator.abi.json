@@ -1371,6 +1371,7 @@
             "mangledName": "$s13KulfyFramwork0A3SDKC11viewDidLoadyyF",
             "moduleName": "KulfyFramwork",
             "overriding": true,
+            "isOpen": true,
             "objc_name": "viewDidLoad",
             "declAttributes": [
               "Dynamic",
