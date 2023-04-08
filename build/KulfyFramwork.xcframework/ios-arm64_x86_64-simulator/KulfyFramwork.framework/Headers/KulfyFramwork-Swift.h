@@ -276,6 +276,24 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
+@interface KulfySDKAppViewController : FKKeyboardViewControllerSwift
+- (void)viewDidLoad;
+- (void)triggerOpenApp;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
+@interface KulfySDK : KulfySDKAppViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class NSObject;
 @protocol UITextDocumentProxy;
 @class KeyboardProperties;
@@ -297,15 +315,6 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
-@interface KulfySDK : KulfySDKViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 
 
@@ -608,6 +617,24 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 - (void)searchBarCancelButtonClicked:(UISearchBar * _Nonnull)searchBar;
 @end
 
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
+@interface KulfySDKAppViewController : FKKeyboardViewControllerSwift
+- (void)viewDidLoad;
+- (void)triggerOpenApp;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
+@interface KulfySDK : KulfySDKAppViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class NSObject;
 @protocol UITextDocumentProxy;
 @class KeyboardProperties;
@@ -629,15 +656,6 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork22KulfySDKViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
-SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
-@interface KulfySDK : KulfySDKViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 
 

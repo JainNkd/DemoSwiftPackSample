@@ -14,6 +14,7 @@
                 <outlet property="kIconButton" destination="eIx-zo-xiE" id="2hK-Cg-G14"/>
                 <outlet property="logoIconView" destination="pNS-4v-uYe" id="vkW-rp-fGk"/>
                 <outlet property="searchBarView" destination="FbM-Be-K9Y" id="IKV-J6-PwT"/>
+                <outlet property="searchButton" destination="GTb-kk-Zfp" id="nuB-Vm-WTU"/>
                 <outlet property="sortButton" destination="j3N-Wl-t1v" id="0cP-Ek-cs6"/>
             </connections>
         </placeholder>
@@ -48,6 +49,11 @@
                     <rect key="frame" x="47" y="0.0" width="317" height="44"/>
                     <textInputTraits key="textInputTraits"/>
                 </searchBar>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GTb-kk-Zfp">
+                    <rect key="frame" x="51" y="6" width="316" height="31"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j3N-Wl-t1v">
                     <rect key="frame" x="371" y="3" width="38" height="38"/>
                     <constraints>
@@ -64,12 +70,16 @@
                 <constraint firstItem="FbM-Be-K9Y" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0vc-53-fI6"/>
                 <constraint firstItem="j3N-Wl-t1v" firstAttribute="leading" secondItem="FbM-Be-K9Y" secondAttribute="trailing" constant="7" id="29u-Jd-yf2"/>
                 <constraint firstItem="FbM-Be-K9Y" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="74o-Io-3ON"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="GTb-kk-Zfp" secondAttribute="bottom" constant="7" id="FcD-Co-38r"/>
                 <constraint firstItem="FbM-Be-K9Y" firstAttribute="leading" secondItem="pNS-4v-uYe" secondAttribute="trailing" constant="4" id="JAd-Xb-aGK"/>
                 <constraint firstItem="pNS-4v-uYe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="LjD-39-QF9"/>
                 <constraint firstItem="eIx-zo-xiE" firstAttribute="centerY" secondItem="pNS-4v-uYe" secondAttribute="centerY" id="NsP-f4-dwK"/>
                 <constraint firstItem="pNS-4v-uYe" firstAttribute="centerY" secondItem="FbM-Be-K9Y" secondAttribute="centerY" id="SKg-bm-nUf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="GTb-kk-Zfp" secondAttribute="trailing" constant="47" id="hPu-Vw-KgO"/>
                 <constraint firstItem="eIx-zo-xiE" firstAttribute="centerX" secondItem="pNS-4v-uYe" secondAttribute="centerX" id="iFX-EK-zDL"/>
+                <constraint firstItem="GTb-kk-Zfp" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="51" id="kOV-G6-ODm"/>
                 <constraint firstAttribute="trailing" secondItem="j3N-Wl-t1v" secondAttribute="trailing" constant="5" id="oFE-sn-50R"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="GTb-kk-Zfp" secondAttribute="top" constant="42" id="rYR-zK-wNK"/>
                 <constraint firstAttribute="trailing" secondItem="FbM-Be-K9Y" secondAttribute="trailing" constant="50" id="v6r-U8-ozr"/>
                 <constraint firstItem="j3N-Wl-t1v" firstAttribute="centerY" secondItem="FbM-Be-K9Y" secondAttribute="centerY" id="ylG-Pp-yM5"/>
             </constraints>
