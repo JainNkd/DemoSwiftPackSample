@@ -29,9 +29,6 @@ let package = Package(
         .package(
                     url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
                     branch: "main"
-                ),
-        .package(   url: "https://github.com/FleksySDK/fleksyapps-iOS.git",
-                    branch: "main"
                 )
 
     ],
@@ -45,7 +42,6 @@ let package = Package(
                 .product(name: "FleksyEngine", package: "FleksyEngine-iOS"),
                 .product(name: "iOSCoreServices", package: "iOS-CoreServices"),
                 .product(name: "FleksyAppsCore", package: "iOS-FleksyAppsCore"),
-                .product(name: "FleksyApps", package: "fleksyapps-iOS"),
                 "KulfyFramwork"]),
         .binaryTarget(
                     name: "KulfyFramwork",
