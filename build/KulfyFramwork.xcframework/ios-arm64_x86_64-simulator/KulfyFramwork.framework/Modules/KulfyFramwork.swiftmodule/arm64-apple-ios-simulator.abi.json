@@ -3945,490 +3945,490 @@
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2827,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2835,
+      "offset": 2893,
       "length": 22,
       "value": "\"com.kulfy.kboard.app\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3175,
+      "offset": 3233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3216,
+      "offset": 3274,
       "length": 18,
       "value": "\"X-KULFYCLOUD-KEY\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3324,
       "length": 15,
       "value": "\"X-KEYBOARD-ID\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3305,
+      "offset": 3363,
       "length": 38,
       "value": "\"805c5bfe-9d16-4e93-8d37-365285809912\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3365,
+      "offset": 3423,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3509,
+      "offset": 3567,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3534,
+      "offset": 3592,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3584,
+      "offset": 3642,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3608,
+      "offset": 3666,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3640,
+      "offset": 3698,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3678,
+      "offset": 3736,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3761,
+      "offset": 3819,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3794,
+      "offset": 3852,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3830,
+      "offset": 3888,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3862,
+      "offset": 3920,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3880,
+      "offset": 3938,
       "length": 12,
       "value": "[\"Trending\"]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3919,
+      "offset": 3977,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 3959,
+      "offset": 4017,
       "length": 60,
       "value": "[\"telugu\", \"tamil\", \"hindi\", \"malayalam\", \"nigeria\", \"pakisthan\"]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 4056,
+      "offset": 4114,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4094,
+      "offset": 4152,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4189,
+      "offset": 4247,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4195,
+      "offset": 4253,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4205,
+      "offset": 4263,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4218,
+      "offset": 4276,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4739,
+      "offset": 4797,
       "length": 4,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4748,
+      "offset": 4806,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4759,
+      "offset": 4817,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4772,
+      "offset": 4830,
       "length": 3,
       "value": "195"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5803,
+      "offset": 5861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5809,
+      "offset": 5867,
       "length": 2,
       "value": "45"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5820,
+      "offset": 5878,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5833,
+      "offset": 5891,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5934,
+      "offset": 5992,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5967,
+      "offset": 6025,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6110,
+      "offset": 6168,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6116,
+      "offset": 6174,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6127,
+      "offset": 6185,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6140,
+      "offset": 6198,
       "length": 3,
       "value": "130"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "Array",
-      "offset": 6171,
+      "offset": 6229,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6212,
+      "offset": 6270,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6453,
+      "offset": 6511,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6593,
+      "offset": 6651,
       "length": 8,
       "value": "\"Latest\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6602,
+      "offset": 6660,
       "length": 9,
       "value": "\"Popular\""
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6645,
+      "offset": 6703,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6649,
+      "offset": 6707,
       "length": 3,
       "value": "125"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6657,
+      "offset": 6715,
       "length": 2,
       "value": "85"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6668,
+      "offset": 6726,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6681,
+      "offset": 6739,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6809,
+      "offset": 6867,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6974,
+      "offset": 7032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6980,
+      "offset": 7038,
       "length": 3,
       "value": "205"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6992,
+      "offset": 7050,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7005,
+      "offset": 7063,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7106,
+      "offset": 7164,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7139,
+      "offset": 7197,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7181,
+      "offset": 7239,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7421,
+      "offset": 7479,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7427,
+      "offset": 7485,
       "length": 3,
       "value": "240"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7439,
+      "offset": 7497,
       "length": 3,
       "value": "390"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7452,
+      "offset": 7510,
       "length": 2,
       "value": "35"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7553,
+      "offset": 7611,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7586,
+      "offset": 7644,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8182,
+      "offset": 8240,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8219,
+      "offset": 8277,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8429,
+      "offset": 8487,
       "length": 4,
       "value": "0.28"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8442,
+      "offset": 8500,
       "length": 4,
       "value": "0.28"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8454,
+      "offset": 8512,
       "length": 4,
       "value": "0.28"
     },
     {
       "filePath": "\/Users\/naveenkumar\/Documents\/1Demo\/KulfyFramwork\/KulfyFramwork\/KulfySDKAppViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8467,
+      "offset": 8525,
       "length": 3,
       "value": "1.0"
     }
