@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qMe7gAOVJREKPbN8q4LoT7CynOc=
+		Fh7glBGhTEMswBolhLtrBQhQ2zY=
 		</data>
 		<key>KulfyCell.nib</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RGe7bV7la5Bb4SMSSYnqyp7tDpg=
+		EyytBXV2T6RiRigxIhqkPBX2fQQ=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tP/CJNO/KO37KcqFq2ocvqRcSBs=
+		vd4700bqppezoiI2Af3CPguNhKs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>ResultNotFoundView.nib</key>
 		<data>
-		8V+JOAc2qQeqLe59+qt44AqFYTs=
+		1BV+meyqJeoqcXOpgK8CE0Q+JsA=
 		</data>
 		<key>SearchView.nib</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>utils.bundle/ResultNotFoundView.xib</key>
 		<data>
-		njuxMeQ2QmJNjksZxwpYkDh9tSU=
+		WYhHm5zfxjcdjykeFPvF2Q48HGw=
 		</data>
 		<key>utils.bundle/SearchView.xib</key>
 		<data>
@@ -307,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y+Dbqfhh+8X4fk31pGUllCby+IEUvdxFYgTTfdJzurE=
+			Jgp6gehqgYqSWB6QtZyCejuWPHIl81zLEvIJZImLTNk=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -342,7 +342,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4Aa4YM9LjlIHXxD2MQeW5daKRZcZESZTmt83mokcH4=
+			g96fLh2dImMNxiPBroJ43/ImZnX6dOb70F8NC7DBJyU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -363,7 +363,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			c7ID+S40OwEOs5h68C84oTohW2KwTm6QN2oCIE6L7Y4=
+			1yXIrI4seO/YC4IfajtysQFvzLqwEzsGUW54+QMsFSw=
 			</data>
 		</dict>
 		<key>SearchView.nib</key>
@@ -412,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fpP/TXU3Bx9E5EVvS3eutzY6Tw4gy9AtEwNBtY6Z/Lg=
+			KmmygcW3SuXVofTm7wiQy5RH7L/X+9inFzl2R//MQtg=
 			</data>
 		</dict>
 		<key>utils.bundle/SearchView.xib</key>
