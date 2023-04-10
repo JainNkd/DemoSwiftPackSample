@@ -57,6 +57,7 @@ extension KulfyFramwork.KulfyDashboardViewController : UIKit.UISearchBarDelegate
   @_Concurrency.MainActor(unsafe) open var keyboardId: Swift.String?
   @_Concurrency.MainActor(unsafe) open func kulfyConfiguration()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) override open func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func triggerOpenApp()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
