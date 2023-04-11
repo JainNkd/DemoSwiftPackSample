@@ -279,8 +279,6 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
 @interface KulfySDKAppViewController : FKKeyboardViewControllerSwift
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
 - (void)triggerOpenApp;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -289,7 +287,6 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
 
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
 @interface KulfySDK : KulfySDKAppViewController
-- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -621,8 +618,6 @@ SWIFT_CLASS("_TtC13KulfyFramwork28KulfyDashboardViewController")
 
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
 @interface KulfySDKAppViewController : FKKeyboardViewControllerSwift
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
 - (void)triggerOpenApp;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -631,7 +626,6 @@ SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork25KulfySDKAppViewController")
 
 SWIFT_RESILIENT_CLASS("_TtC13KulfyFramwork8KulfySDK")
 @interface KulfySDK : KulfySDKAppViewController
-- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

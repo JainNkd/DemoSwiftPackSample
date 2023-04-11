@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/KulfyFramwork-Swift.h</key>
 		<data>
-		RzjeoCq6cqRUGmsvMOdDNXgaGzk=
+		MlEvBaMJ9gRtRLP6GcB3XOHWpJs=
 		</data>
 		<key>Headers/KulfyFramwork.h</key>
 		<data>
@@ -70,15 +70,15 @@
 		</data>
 		<key>LanguageView.nib</key>
 		<data>
-		3OcLlQlQeUm5R+TE9iY1ti1RKK8=
+		tXmwRStR/RLMfCOHUw/BbajDX2I=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vwn8Xr4UhesreUcTMW/pBkosNJA=
+		6HIU2HV1j49AdN/mYYTG6tEMMXQ=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mEq5OOmzG/xy3WFva+PgDZDl3rw=
+		Jg8TUgPm4knXTZL6t34w8b0U+Cc=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -86,19 +86,19 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mEq5OOmzG/xy3WFva+PgDZDl3rw=
+		Jg8TUgPm4knXTZL6t34w8b0U+Cc=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cNFPIS39p+4Kn10bG6E+Xs/qU5c=
+		RoaQxatvUkPMcPleSUNO0+Y0hG0=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Vwn8Xr4UhesreUcTMW/pBkosNJA=
+		6HIU2HV1j49AdN/mYYTG6tEMMXQ=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pPumIPO9AxS0iqNEp3tY0a3x+mQ=
+		D/lE619NyAjHe2yWgTmMjKyo5yM=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pPumIPO9AxS0iqNEp3tY0a3x+mQ=
+		D/lE619NyAjHe2yWgTmMjKyo5yM=
 		</data>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		08EqLEVNsfWAdO7x0DYJDpi9TFU=
+		nogao9ZfQ6mzGv0GTHEfngTTqvk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>TagListView.nib</key>
 		<data>
-		5jUWnyFXDV/lnDzhLYz7fsf+e+s=
+		0Oi9yXKBGsQP0W7u1vmIA+G16RY=
 		</data>
 		<key>utils.bundle/CommonTagList.xib</key>
 		<data>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XjdnFSOi8eITF27iVcn24rowWCFqRn9FfbDcIdapvvE=
+			mTvnELYPMlu8NN6DnzD+X1qwEkJ2ip2Q7P7WY2A7V8Q=
 			</data>
 		</dict>
 		<key>Headers/KulfyFramwork.h</key>
@@ -272,21 +272,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5DvN+ghq+j8TMybLkR44DiCFnGPevtEEtNS5amLdaE=
+			7XsjeJ5sFgO1tA/W1D88siNhK60Bwbbg5rEJrtOA6Po=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b/ltQAjME6jYfUUZsCyS/EPcyUNdCnVbuZXXTotAzJ0=
+			eACZHN3yPzYuwDZcDSW1zEg26bz8Zr+49ckuFj/5kP4=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			28muxhF9n0qWy6F4UQUyVxBJyiDjk9UmvLHL5y9XdSU=
+			QKFYkzoULra5ZEbxQraK8uNIZNwpnVjyf6b0QSBicVY=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -300,28 +300,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			28muxhF9n0qWy6F4UQUyVxBJyiDjk9UmvLHL5y9XdSU=
+			QKFYkzoULra5ZEbxQraK8uNIZNwpnVjyf6b0QSBicVY=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			urX5OY5Vw1KreJNsi9hTz0M39BbxTp1eboZ6fxjsqDY=
+			yG6zId3oPnFeBX77Zc5m5jFOR4TBOk9dQV38T3lHj7s=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b/ltQAjME6jYfUUZsCyS/EPcyUNdCnVbuZXXTotAzJ0=
+			eACZHN3yPzYuwDZcDSW1zEg26bz8Zr+49ckuFj/5kP4=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptsMkd3shZfIuThwkOzTQYgwK+QcCcyzUcDtGtg5BMk=
+			JtoOdxp3xSrtf0yws8SbGiNhh5QaiNqjiqgkxRXOwwE=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -335,14 +335,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ptsMkd3shZfIuThwkOzTQYgwK+QcCcyzUcDtGtg5BMk=
+			JtoOdxp3xSrtf0yws8SbGiNhh5QaiNqjiqgkxRXOwwE=
 			</data>
 		</dict>
 		<key>Modules/KulfyFramwork.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z7efgRmCUbwjsvXpfCQXi9Eysq0G80eUGg3pWOyoP5w=
+			KymwtcUbwI01A9rIVNvWjBgEW9iX0N8Y1+TxsSkZyvw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -377,7 +377,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WrcGRbxcCJn5egvzf63g1HWh7CXhvBwPBODpWaOcLR8=
+			FFO2CtCU6VGkuXGiPgnOlfLdupa+c22ZdbtTcREeqmQ=
 			</data>
 		</dict>
 		<key>utils.bundle/CommonTagList.xib</key>
