@@ -35,6 +35,15 @@
         "branch" : "main",
         "revision" : "5c25b4eaceebe3e326d1576c3fda14ad77708b75"
       }
+    },
+    {
+      "identity" : "reachability.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ashleymills/Reachability.swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "a81b7367f2c46875f29577e03a60c39cdfad0c8d"
+      }
     }
   ],
   "version" : 2

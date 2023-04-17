@@ -29,7 +29,12 @@ let package = Package(
         .package(
                     url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
                     branch: "main"
-                )
+                ),
+        .package(
+            url:"https://github.com/ashleymills/Reachability.swift",
+            branch: "master"
+        ),
+        
 
     ],
     targets: [
@@ -42,6 +47,7 @@ let package = Package(
                 .product(name: "FleksyEngine", package: "FleksyEngine-iOS"),
                 .product(name: "iOSCoreServices", package: "iOS-CoreServices"),
                 .product(name: "FleksyAppsCore", package: "iOS-FleksyAppsCore"),
+                .product(name: "Reachability", package: "Reachability.swift"),
                 "KulfyFramwork"]),
         .binaryTarget(
                     name: "KulfyFramwork",
