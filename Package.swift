@@ -16,19 +16,19 @@ let package = Package(
         // Dependencies declare other packages that this package depends on.
         .package(
                    url: "https://github.com/FleksySDK/FleksySDK-iOS",
-                   branch: "main"
+                   exact: "4.6.0"
          ),
         .package(
                     url: "https://github.com/FleksySDK/FleksyEngine-iOS",
-                    branch: "main"
+                    branch: "3.9.9"
                 ),
         .package(
                     url: "https://github.com/FleksySDK/iOS-CoreServices",
-                    branch: "main"
+                    branch: "1.4.0"
                 ),
         .package(
                     url: "https://github.com/FleksySDK/iOS-FleksyAppsCore",
-                    branch: "main"
+                    branch: "0.9.1"
                 ),
         .package(
             url:"https://github.com/ashleymills/Reachability.swift",
