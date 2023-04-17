@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KulfyFramwork
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import FleksyAppsCore
 import FleksyKeyboardSDK
 import Foundation
 @_exported import KulfyFramwork
+import Reachability
 import Swift
 import UIKit
 import _Concurrency
@@ -22,7 +23,7 @@ import _StringProcessing
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func customMagicButton(_ element: Swift.String, forAction action: Swift.Int32)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func onLayoutChanges(_ dictLayout: [Swift.AnyHashable : Any])
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func triggerOpenApp()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateKeyboardAppsTextDocumentProxy(_ documentProxy: UIKit.UITextDocumentProxy?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func updateKeyboardAppsTextDocumentProxy(_ documentProxy: (any UIKit.UITextDocumentProxy)?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func contextPropertiesChanged(_ properties: FleksyKeyboardSDK.KeyboardProperties)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -54,7 +55,7 @@ extension KulfyFramwork.KulfyDashboardViewController : UIKit.UISearchBarDelegate
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class KulfySDKAppViewController : FleksyKeyboardSDK.FKKeyboardViewController {
   @_Concurrency.MainActor(unsafe) open var apiAccessKey: Swift.String?
   @_Concurrency.MainActor(unsafe) open var keyboardId: Swift.String?
-  @_Concurrency.MainActor(unsafe) open func kulfyConfiguration()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) override open func createConfiguration() -> FleksyKeyboardSDK.KeyboardConfiguration
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func triggerOpenApp()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
@@ -65,7 +66,7 @@ extension KulfyFramwork.KulfyDashboardViewController : UIKit.UISearchBarDelegate
   public var initialText: Swift.String?
   final public let appId: Swift.String
   open func dispose()
-  @_Concurrency.MainActor public func initialize(listener: FleksyAppsCore.AppListener, configuration: FleksyAppsCore.AppConfiguration)
+  @_Concurrency.MainActor public func initialize(listener: any FleksyAppsCore.AppListener, configuration: FleksyAppsCore.AppConfiguration)
   @_Concurrency.MainActor open func close()
   open func onThemeChanged(_ theme: FleksyAppsCore.AppTheme)
   open func appIcon() -> UIKit.UIImage?
